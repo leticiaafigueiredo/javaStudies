@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class App{
+public class AreaObjetos{
     public static void main (String[] args){
 
         int choice;
@@ -42,7 +42,7 @@ public class App{
                 area[1] = comprimento * altura;
 
                 System.out.println("A area do triangulo e: " + area[1] + " centimetros quadrados");
-                
+
             break;
 
             case 3:
@@ -64,11 +64,11 @@ public class App{
                 altura = scanner.nextInt();
 
                 area[3] = (base * altura)/2;
-                
+
                 System.out.println("A area do triangulo retangule e: " + area[3] + " centimetros quadrados");
 
             break;
-            
+
             default:
 
                 System.out.println("Valor invalido!");
